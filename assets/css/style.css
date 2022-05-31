@@ -1,5 +1,40 @@
 body {
-    background-color: black;
-    color: greenyellow;
-    color-scheme: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(000, 225, 215);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: lightgray;
+    color: #BBB;
+    border: 1px solid #BBB;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
 }
